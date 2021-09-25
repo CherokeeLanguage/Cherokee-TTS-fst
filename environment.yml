@@ -116,4 +116,3 @@ dependencies:
     - scikit-learn==1.0
     - soundfile==0.10.3.post1
     - threadpoolctl==2.2.0
-prefix: /home/muksihs/.conda/envs/Cherokee-TTS-fst
