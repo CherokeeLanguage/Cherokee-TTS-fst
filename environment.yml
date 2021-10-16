@@ -107,12 +107,151 @@ dependencies:
     - audioread==2.1.9
     - decorator==5.1.0
     - joblib==1.0.1
+    - kaggle==1.5.12
     - librosa==0.8.1
     - llvmlite==0.37.0
     - numba==0.54.0
     - packaging==21.0
     - pooch==1.5.1
+    - python-slugify==5.0.2
     - resampy==0.2.2
     - scikit-learn==1.0
     - soundfile==0.10.3.post1
+    - text-unidecode==1.3
+    - threadpoolctl==2.2.0
+name: Cherokee-TTS-fst
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=4.5
+  - appdirs=1.4.4
+  - audioread=2.1.9
+  - blas=1.0
+  - brotli=1.0.9
+  - brotlipy=0.7.0
+  - bzip2=1.0.8
+  - ca-certificates=2021.10.8
+  - certifi=2021.10.8
+  - cffi=1.14.6
+  - charset-normalizer=2.0.4
+  - conda=4.10.3
+  - conda-package-handling=1.7.3
+  - cryptography=3.4.7
+  - cudatoolkit=11.1.74
+  - cycler=0.10.0
+  - dbus=1.13.18
+  - decorator=5.1.0
+  - editdistance=0.5.3
+  - expat=2.4.1
+  - ffmpeg=4.3
+  - fontconfig=2.13.1
+  - fonttools=4.25.0
+  - freetype=2.10.4
+  - gettext=0.19.8.1
+  - glib=2.69.1
+  - gmp=6.2.1
+  - gnutls=3.6.15
+  - gst-plugins-base=1.14.0
+  - gstreamer=1.14.0
+  - icu=58.2
+  - idna=3.2
+  - intel-openmp=2021.3.0
+  - jpeg=9b
+  - kiwisolver=1.3.1
+  - lame=3.100
+  - lcms2=2.12
+  - ld_impl_linux-64=2.35.1
+  - libffi=3.3
+  - libflac=1.3.3
+  - libgcc-ng=9.3.0
+  - libgfortran-ng=7.5.0
+  - libgfortran4=7.5.0
+  - libgomp=9.3.0
+  - libiconv=1.15
+  - libidn2=2.3.2
+  - libllvm10=10.0.1
+  - libogg=1.3.4
+  - libopus=1.3.1
+  - libpng=1.6.37
+  - librosa=0.8.1
+  - libsndfile=1.0.31
+  - libstdcxx-ng=9.3.0
+  - libtasn1=4.16.0
+  - libtiff=4.2.0
+  - libunistring=0.9.10
+  - libuuid=1.0.3
+  - libuv=1.40.0
+  - libvorbis=1.3.7
+  - libwebp-base=1.2.0
+  - libxcb=1.14
+  - libxml2=2.9.12
+  - lz4-c=1.9.3
+  - matplotlib=3.4.2
+  - matplotlib-base=3.4.2
+  - mkl=2021.3.0
+  - mkl-service=2.4.0
+  - mkl_fft=1.3.0
+  - mkl_random=1.2.2
+  - munkres=1.1.4
+  - ncurses=6.2
+  - nettle=3.7.3
+  - ninja=1.10.2
+  - numpy=1.20.3
+  - numpy-base=1.20.3
+  - olefile=0.46
+  - openh264=2.1.0
+  - openjpeg=2.4.0
+  - openssl=1.1.1l
+  - packaging=21.0
+  - pcre=8.45
+  - pillow=8.3.1
+  - pip=21.2.4
+  - pycosat=0.6.3
+  - pycparser=2.20
+  - pydub=0.25.1
+  - pyopenssl=20.0.1
+  - pyparsing=2.4.7
+  - pyqt=5.9.2
+  - pysocks=1.7.1
+  - pysoundfile=0.10.3.post1
+  - python=3.9.7
+  - python-dateutil=2.8.2
+  - python_abi=3.9
+  - pytorch=1.9.1
+  - qt=5.9.7
+  - readline=8.1
+  - requests=2.26.0
+  - resampy=0.2.2
+  - ruamel_yaml=0.15.100
+  - scipy=1.7.1
+  - setuptools=58.0.4
+  - sip=4.19.13
+  - six=1.16.0
+  - sqlite=3.36.0
+  - tk=8.6.10
+  - torchaudio=0.9.1
+  - torchvision=0.10.1
+  - tornado=6.1
+  - tqdm=4.62.2
+  - typing_extensions=3.10.0.2
+  - tzdata=2021a
+  - urllib3=1.26.6
+  - wheel=0.37.0
+  - xz=5.2.5
+  - yaml=0.2.5
+  - zlib=1.2.11
+  - zstd=1.4.9
+  - pip:
+    - joblib==1.0.1
+    - kaggle==1.5.12
+    - llvmlite==0.37.0
+    - numba==0.54.0
+    - pooch==1.5.1
+    - python-slugify==5.0.2
+    - scikit-learn==1.0
+    - text-unidecode==1.3
     - threadpoolctl==2.2.0

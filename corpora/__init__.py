@@ -1,8 +1,11 @@
 import os
+from pathlib import Path
 
-dataset_path = r"D:\free_corpus\base"
-transformed_path = r"D:\free_corpus\processed"
-packed_path = r"D:\free_corpus\packed"
+_ = Path(globals().get("__file__", "./_")).absolute().parent
+dataset_path = f"{_}/../data/base"
+transformed_path = f"{_}/../data/processed"
+packed_path = f"{_}/../data/packed"
+
 # Containing metadata.csv and mels/, in dir of each dataset
 # and lang_to_id.json and spk_id.json in transformed_path and packed_path
 
